@@ -5,7 +5,7 @@ go 1.20
 require (
 	//github.com/bytedance/sonic v1.11.0
 	github.com/gin-contrib/sse v0.1.0
-	github.com/go-playground/validator/v10 v10.18.0
+	github.com/go-playground/validator/v10 v10.19.0
 	github.com/goccy/go-json v0.10.2
 	github.com/json-iterator/go v1.1.12
 	github.com/mattn/go-isatty v0.0.20
@@ -16,6 +16,8 @@ require (
 	google.golang.org/protobuf v1.33.0
 	gopkg.in/yaml.v3 v3.0.1
 )
+
+require github.com/bytedance/sonic v1.10.0-rc
 
 require (
 	github.com/chenzhuoyu/base64x v0.0.0-20230717121745-296ad89f973d // indirect
